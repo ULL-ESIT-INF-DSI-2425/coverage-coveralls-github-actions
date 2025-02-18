@@ -7,5 +7,5 @@ versiones de Node.js cada vez que se lleva a cabo un *push* o *pull request* en 
 2. El segundo flujo de trabajo permite llevar a cabo el cubrimiento del código fuente e integrándolo con
 Coveralls, una herramienta que permite ir registrando un histórico de cubrimiento.
 
-[![Tests](https://github.com/ULL-ESIT-INF-DSI-2425/coverage/actions/workflows/ci.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2425/coverage/actions/workflows/ci.yml)
-[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2425/coverage/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2425/coverage?branch=main)
+[![Tests](https://github.com/ULL-ESIT-INF-DSI-2425/coverage-coveralls-github-actions/actions/workflows/ci.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2425/coverage-coveralls-github-actions/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2425/coverage-coveralls-github-actions/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2425/coverage-coveralls-github-actions?branch=main)
