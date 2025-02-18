@@ -35,6 +35,8 @@ export function sub(firstNumber: number, secondNumber: number): number {
  * ```
  */
 export function div(firstNumber: number, secondNumber: number): number {
-  if (secondNumber === 0) throw new Error("Zero division");
+  if (secondNumber === 0) {
+    throw new Error('Zero division');
+  }
   return firstNumber / secondNumber;
 }
