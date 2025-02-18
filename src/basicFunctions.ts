@@ -24,3 +24,17 @@ export function add(firstNumber: number, secondNumber: number): number {
 export function sub(firstNumber: number, secondNumber: number): number {
   return firstNumber - secondNumber;
 }
+
+/**
+ *
+ * @param firstNumber - Consists of the first operand of the division
+ * @param secondNumber - Consists of the second operand of the division
+ * @returns The division of the two numbers `firstNumber` and `secondNumber`
+ * ```typescript
+ * div(4, 8) = 0.5
+ * ```
+ */
+export function div(firstNumber: number, secondNumber: number): number {
+  if (secondNumber === 0) throw new Error("Zero division");
+  return firstNumber / secondNumber;
+}

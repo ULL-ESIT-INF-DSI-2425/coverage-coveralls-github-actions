@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { add, sub } from "../src/basicFunctions";
+import { add, sub, div } from "../src/basicFunctions";
 
 describe("add function tests", () => {
   test("add(1, 8) returns value 9", () => {
@@ -18,5 +18,11 @@ describe("sub function tests", () => {
 
   test("sub(-1, 8) returns value -9", () => {
     expect(sub(-1, 8)).toBe(-9);
+  });
+});
+
+describe("div function tests", () => {
+  test("div(4, 8) returns value 0.5", () => {
+    expect(div(4, 8)).toBe(0.5);
   });
 });
