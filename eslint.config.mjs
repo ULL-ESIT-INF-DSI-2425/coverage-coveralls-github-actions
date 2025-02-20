@@ -21,5 +21,5 @@ export default [
       "tsdoc/syntax": "warn",
     },
   },
-  { ignores: ["eslint.config.mjs", "dist/*", "docs/*", ".github", "coverage/*"] },
+  { ignores: ["eslint.config.mjs", "coverage/*", "dist/*", "docs/*", ".github/*"] },
 ];
